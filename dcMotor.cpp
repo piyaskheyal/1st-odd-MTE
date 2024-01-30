@@ -1,4 +1,4 @@
-int potentiometer = A0, Forward = A1, Backward = A3, Enable = 3, IN1 = 10, IN2 = 9, poten = 0, read;
+int potentiometer = A0, Forward = A1, Backward = A2, Enable = 9, IN1 = 11, IN2 = 10, poten = 0, read;
 int duty;
 
 void setup(){
